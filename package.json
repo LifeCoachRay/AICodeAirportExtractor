@@ -1,0 +1,32 @@
+{
+  "name": "aiairportcodeextractor",
+  "version": "0.1.0",
+  "description": "This API uses AI technology to extract airport codes from text.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifecoachray"
+  },
+  "keywords": [
+    "API",
+    "AI",
+    "Server",
+    "Airport",
+    "Codes"
+  ],
+  "author": "Life Coach Ray",
+  "license": "GNU",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "server.js": "^1.0.0",
+    "ws": "^8.12.0",
+    "wss": "^3.3.4"
+  }
+}
